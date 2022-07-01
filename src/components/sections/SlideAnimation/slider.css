@@ -1,0 +1,30 @@
+.border {
+  display: flex;
+  border-top: 1px solid white;
+  gap: 1.2rem;
+  border-bottom: 1px solid white;
+  overflow:hidden;
+}
+
+.header {
+  display: flex;
+  /*   height: 5rem; */
+}
+
+.bigL {
+  font-size: 7rem;
+  color: white;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    transform: translateX(-10rem);
+  }
+  to {
+    transform: translateX(-100rem);
+  }
+}

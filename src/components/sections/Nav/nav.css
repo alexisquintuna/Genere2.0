@@ -1,0 +1,30 @@
+nav {
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 1;
+  position: fixed;
+  left: 16%;
+  bottom: 2rem;
+  display: flex;
+  gap: 4rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.9rem;
+  margin-bottom: 4rem;
+}
+
+nav a {
+  color: #b6b6b6;
+}
+
+nav a:hover {
+  transition: 500ms;
+  color: var(--dark-red);
+}
+
+nav a.active {
+  /* text-decoration: underline white; */
+  color: var(--really-red);
+  opacity: 850%;
+}

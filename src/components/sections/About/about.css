@@ -1,0 +1,95 @@
+/* .About {
+  height: 120vh;
+  padding-top: 8rem;
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+} */
+section > p {
+  text-align: center;
+  position: relative;
+  left: 10rem;
+  width: var(--container-width-lg);
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.about__images {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about__image {
+  height: 18rem;
+  width: 18rem;
+  position: relative;
+  text-align: center;
+}
+
+/* IMAGE TEXT  */
+
+.image__text {
+  position: absolute;
+}
+
+.about__text {
+  position: absolute;
+  bottom: 4rem;
+  left: 1.2rem;
+  font-size: 6rem;
+}
+
+/* LOVE TEXT */
+
+.love__image-text {
+  bottom: 12.1rem;
+  left: 3.7rem;
+}
+
+.love__color {
+  color: #320c64;
+  bottom: 13rem;
+  left: 1.2rem;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.2rem;
+}
+
+/* RACE TEXT */
+
+.race__image-text {
+  left: -3rem;
+  letter-spacing: 2.5rem;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.2rem;
+}
+
+.race__color {
+  color: #74194c;
+}
+
+.race__white {
+  left: -4.3rem;
+}
+
+/* CARS TEXT */
+
+.cars__image-text {
+  bottom: -5.2rem;
+}
+
+.cars__color {
+  color: #14307b;
+  text-decoration: line-through;
+  text-decoration-thickness: 0.2rem;
+  left: -0.3rem;
+  bottom: -6.5rem;
+}

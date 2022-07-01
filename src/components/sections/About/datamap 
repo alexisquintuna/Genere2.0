@@ -1,0 +1,15 @@
+<div className="container about__container">
+  {data.map(({ id, image, title }) => {
+    return (
+      <article key={id} className="project__item">
+        <div className="about__image">
+          {/* <p className="project__description">{description}</p> || New Update not sure how im going to make this work for now */}
+          <img src={image} alt={title} />
+        </div>
+
+        <h3>{title}</h3>
+        <h3>{title}</h3>
+      </article>
+    );
+  })}
+</div>;
