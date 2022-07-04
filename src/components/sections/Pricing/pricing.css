@@ -1,0 +1,114 @@
+.pricing__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin: 10rem auto 10rem;
+}
+
+ul {
+  margin-top: 5rem;
+  padding-left: 2.5rem;
+}
+
+li {
+  align-items: center;
+  list-style: none;
+  margin: 1rem 0 0;
+  font-size: 0.8rem;
+}
+
+.pricing__list{
+    padding-left: 0.6rem;
+}
+
+button {
+  height: 3rem;
+  width: 9rem;
+  background-color: Transparent;
+  color: white;
+  border: 2px solid;
+  border-radius: 1.2rem;
+  font-weight: bold;
+}
+
+button:hover{
+    transition: 500ms;
+    /* transform: scale(1.2); */
+    color: pink;
+    cursor: pointer;
+}
+
+.pricing__borderbox {
+  border: 4px solid white;
+  height: 38rem;
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.basic__borderbox{
+    border-color: #14307B;
+}
+
+.better__borderbox{
+    border-color: #74194C;
+}
+
+.best__borderbox{
+    border-color: #320C64;
+}
+
+.fast_box {
+  position: relative;
+  bottom: 3.5rem;
+}
+
+.pricing__title {
+  margin: 0 auto;
+  position: relative;
+}
+
+.fast__title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 3.5rem;
+  background-color: black;
+  width: fit-content;
+  padding: 0 1.2rem 0;
+  margin: 0 auto;
+}
+
+
+/*      NUMBERS      */
+
+.price {
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+.monthly {
+  font-size: 0.8rem;
+}
+
+
+/*      BUTTON CSS       */
+
+.button__div {
+  text-align: center;
+  position: relative;
+}
+
+.button__basic{
+    margin-top: 59%;
+    border-image-source: linear-gradient(117deg, rgba(20,48,123,1) 0%, rgba(41,96,247,1) 100%);
+    border-image-slice: 1;
+}
+
+.button__better{
+    margin-top: 47%;
+}
+
+.button__best{
+    margin-top: 23.5%;
+}

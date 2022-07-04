@@ -1,26 +1,26 @@
 import "./about.css";
-import Right from "../../images/CarMeets2.jpeg";
-import Center from "../../images/CarMeets3.jpeg";
-import Left from "../../images/CarMeets4.jpeg";
+// import Right from "../../images/CarMeets2.jpeg";
+// import Center from "../../images/CarMeets3.jpeg";
+// import Left from "../../images/CarMeets4.jpeg";
 import Slider from "../SlideAnimation/Slider";
 
-const data = [
-  {
-    id: 1,
-    image: Left,
-    title: "LOVE",
-  },
-  {
-    id: 2,
-    image: Center,
-    title: "RACE",
-  },
-  {
-    id: 3,
-    image: Right,
-    title: "CARS",
-  },
-];
+// const data = [
+//   {
+//     id: 1,
+//     image: Left,
+//     title: "LOVE",
+//   },
+//   {
+//     id: 2,
+//     image: Center,
+//     title: "RACE",
+//   },
+//   {
+//     id: 3,
+//     image: Right,
+//     title: "CARS",
+//   },
+// ];
 
 const About = () => {
   return (
@@ -81,19 +81,18 @@ const About = () => {
       <br />
       <br />
       <p>
-        Genere Natus was created back when our founder was in Chicago and was
-        introduced into the underground scene of cars. Here he saw a variety of
-        cars. Starting from show cars to race cars to drift cars. He saw it all
-        and was amazed, but everytime the group went out to show of the cars
-        it'll always be shut down by cops. This made him think what if there was
-        a way to still organize such events but in a more disclose area. This is
-        when Genere Natus was created. A car club where theres nothing but
-        love for each other and cars, with a little competion.
+        Being from New York City, one of our founders got introduced to the underground
+        car culture there and fell in love with it. He saw many different types
+        of vehicles here. From show cars to race cars to drift cars, there was
+        something for everyone. Within an hour, a police raid is common at these
+        small shows. As a result, he wondered if such events could still be
+        organized, but more discreetly, to avoid police detection. It was at
+        this point that Genere Natus was born. 
+        <br />
+        Founded by members from all over the world, we're a car club that celebrates cars, community, and competitiveness.
       </p>
       <br />
       <br />
-
-
     </section>
   );
 };
