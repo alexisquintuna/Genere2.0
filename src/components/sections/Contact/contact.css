@@ -1,0 +1,79 @@
+.contact__container{
+    margin-top: 5rem;
+}
+
+.contact__leftside-text {
+  color: var(--really-red);
+  text-decoration: line-through;
+  text-decoration-line: 0.4rem;
+}
+
+.contact__box {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 7px;
+  width: 65rem;
+  height: 37rem;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.contact__text {
+  position: absolute;
+  top: 2rem;
+  text-align: right;
+  top: 2rem;
+  margin: 0.5rem /*top*/ 0rem /*right*/ 0rem /*bottom*/ 2rem /*left*/;
+  word-spacing: 0.1rem;
+}
+
+.contact__maintext {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact__overlay-text{
+  position: relative;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.contact__middlesection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 9rem;
+}
+.contact__middle-content {
+  margin: 1rem 1rem;
+}
+
+input{
+  margin: 5px;
+  height: 3.5rem;
+  width: 25rem;
+  border-radius: 1.3rem;
+  border: none;
+  text-indent: 1.8rem;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+
+.contact__button {
+  position: relative;
+  top: 12rem;
+  height: 4.2rem;
+  width: 25rem;
+  border: 1px solid #780000;
+  border-radius: 1.2rem;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #950101;
+}
