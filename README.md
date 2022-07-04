@@ -4,7 +4,7 @@
 This is a work in progress, updating Genere Natus website and implementing react. 
 Genere Natus is a car club founded by members from all over the world, promoting underground street racing but in a safely manner. 
 [Click here](https://genere-natus.vercel.app/) for first version live site.
-[Click here] (https://generenatus2-0.vercel.app/) for the new version (work in progress).
+[Click here](https://generenatus2-0.vercel.app/) for the new version (work in progress).
 
 ## Prerequisites
 This was built with the help of 
