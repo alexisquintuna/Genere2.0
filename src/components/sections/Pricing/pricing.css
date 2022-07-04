@@ -49,6 +49,7 @@ button:hover{
     border-color: #14307B;
 }
 
+
 .better__borderbox{
     border-color: #74194C;
 }
@@ -107,8 +108,12 @@ button:hover{
 
 .button__better{
     margin-top: 47%;
+    border-image-source: linear-gradient(117deg, #9D1F64 0%, #EA3396 100%);
+    border-image-slice: 1;
 }
 
 .button__best{
     margin-top: 23.5%;
+    border-image-source: linear-gradient(117deg, #3B0C77 0%, #6518C7 100%);
+    border-image-slice: 1;
 }
