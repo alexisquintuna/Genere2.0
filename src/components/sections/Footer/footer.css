@@ -1,0 +1,107 @@
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: black;
+  height: 9rem;
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid white;
+}
+
+.footer__border {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  position: relative;
+  left: 4%;
+  top: 0.5rem;
+  height: 6rem;
+  width: 6rem;
+  /* background-color: pink; */
+}
+
+.footer__pic {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.footer__logo-name {
+  font-size: 0.9rem;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: 1.2rem;
+}
+
+.copy {
+  font-size: 0.6rem;
+  text-align: center;
+  color: grey;
+  position: relative;
+  bottom: 0.7rem;
+}
+
+/*              SOCIAL MENU             */
+
+.socialMenu {
+  position: relative;
+  right: 7%;
+  bottom: 3.7rem;
+}
+
+.socialMenu > li {
+  margin-top: 0.5rem;
+}
+.socialMenu > li > a {
+  letter-spacing: 0.05rem;
+}
+
+.socialMenu > li > a:hover{
+    transition: 300ms;
+    color: var(--really-red)
+}
+
+.menu {
+  display: flex;
+  gap: 3.8rem;
+  position: relative;
+  bottom: 2.3rem;
+  right: 5rem;
+}
+
+.subscription {
+  margin: 1.9rem 4rem 0 0;
+  /* background-color: pink; */
+  height: 4rem;
+}
+
+.subscribe {
+  word-spacing: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.footer__input {
+  border: 1px solid white;
+  border-radius: 5rem;
+  background-color: transparent;
+  height: 1.8rem;
+  width: 20rem;
+  text-indent: 1rem;
+  font-size: 0.7rem;
+  position: relative;
+  margin: 0;
+}
+
+.footer__input::placeholder {
+  color: #e1e3e1;
+}
+
+.footer__arrow {
+  position: relative;
+  right: 1.7rem;
+  top: 0.3rem;
+}
